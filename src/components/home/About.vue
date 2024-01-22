@@ -1,14 +1,16 @@
 <script setup>
 
     // Video Ads
-    import AdVideo from '../assets/video/video.mp4'
+    import AdVideo from '../../assets/video/video.mp4'
 
 </script>
 
 <template>
-    <div class="relative container flex flex-col mx-auto md:grid grid-cols-2 mb-8 gap-8">
+    <section class="relative container flex flex-col mx-auto md:grid grid-cols-2 mb-20 gap-8">
         
-        <iframe :src="AdVideo" aria-label="video_Player" class="hidden md:flex rounded-lg shadow-red-400 lg:w-full lg:h-full aspect-video md:h-3/6 md:w-full border-none"></iframe>
+        <!-- <iframe :src="AdVideo" aria-label="video_Player" class="hidden md:flex rounded-lg shadow-red-400 lg:w-full lg:h-full aspect-video md:h-3/6 md:w-full border-none"></iframe> -->
+
+        <video :src="AdVideo" controls aria-label="video_Player" class="hidden md:flex rounded-lg shadow-red-400 lg:w-full lg:h-full aspect-video md:h-3/6 md:w-full border-none"></video>
 
         <div class="rounded-lg mb-8">
             <div class="mx-3 ">
@@ -46,7 +48,7 @@
                 </div>
 
 
-                <h4 class="text-xl font-bold mt-10">Safi School Gallery.</h4>
+                <h4 class="text-xl font-bold mt-10">Organization Structure.</h4>
 
                     <!-- Showing the percentage with Explanation -->
                 <div class="mt-5 flex flex-col md:grid grid-cols-2 space-y-4 md:space-y-0 md:space-x-2">
@@ -73,5 +75,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>

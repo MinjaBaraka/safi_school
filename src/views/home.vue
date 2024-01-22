@@ -5,7 +5,7 @@
         <Presentation />
         <About />
         <VisionMission />
-        <Instructor />
+        <FAQ />
         <Feedback />
         <BlogsNews />
         <Footer />
@@ -14,5 +14,5 @@
 </template>
 
 <script setup>
-    import {Nav, MainHeader, Presentation, Footer, VisionMission, About, Instructor, Feedback, BlogsNews } from '../components'
+    import {Nav, MainHeader, Presentation, Footer, VisionMission, About, FAQ, Feedback, BlogsNews } from '../components'
 </script>

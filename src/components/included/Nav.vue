@@ -1,6 +1,6 @@
 <script setup>
  
- import Logo from '../assets/images/logo.png'
+ import Logo from '../../assets/images/logo/logo.png'
  
 
  const menu = [
@@ -17,6 +17,11 @@
         link: ''
     },
      {
+        title: 'Gallery',
+        link: ''
+    },
+
+    {
         title: 'Calendar',
         link: ''
     },
@@ -40,14 +45,14 @@
 </script>
 
 <template>
-    <div class="sticky top-0 z-50 text-white"  style="background-color: #242F51 !important;">
-        <section class=" container mx-auto flex items-center justify-between h-full">
+    <header class="sticky top-0 z-50 text-white"  style="background-color: #242F51 !important;">
+        <nav class=" container mx-auto flex items-center justify-between h-full">
             <!-- School Logo -->
             <img :src="Logo" alt="School Logo" class="md:w-32 w-24 mt-2">
 
             <!-- Menu -->
             <div class="hidden md:flex space-x-8">
-                <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500">
+                <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500">
                     {{ option.title }}
                 </p>
             </div>
@@ -69,19 +74,19 @@
                 </a>
             </div>
 
-            <!-- Mobile Menu -->
-            <!-- <div class="md:hidden">
-            <div class="absolute flex flex-col items-center self-end py-8 mt-10 
-                    space-y-8 font-bold bg-white sm:w-auto sm:self-center 
-                    left-6 right-6 top-8 drop-shadow-sm">
+                <!-- Mobile Menu -->
+                <!-- <div class="md:hidden">
+                <div class="absolute flex flex-col items-center self-end py-8 mt-10 
+                        space-y-8 font-bold bg-white sm:w-auto sm:self-center 
+                        left-6 right-6 top-8 drop-shadow-sm">
 
-                 <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500">
-                            {{ option.title }}
-                        </p>
-            </div>
-        </div> -->
-        </section>
+                    <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500">
+                                {{ option.title }}
+                            </p>
+                </div>
+            </div> -->
+        </nav>
 
 
-    </div>
+    </header>
 </template>
