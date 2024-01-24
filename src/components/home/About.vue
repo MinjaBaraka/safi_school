@@ -1,16 +1,13 @@
 <script setup>
-
-    // Video Ads
-    import AdVideo from '../../assets/video/video.mp4'
-
 </script>
 
 <template>
     <section class="relative container flex flex-col mx-auto md:grid grid-cols-2 mb-20 gap-8">
-        
-        <!-- <iframe :src="AdVideo" aria-label="video_Player" class="hidden md:flex rounded-lg shadow-red-400 lg:w-full lg:h-full aspect-video md:h-3/6 md:w-full border-none"></iframe> -->
-
-        <video :src="AdVideo" controls aria-label="video_Player" class="hidden md:flex rounded-lg shadow-red-400 lg:w-full lg:h-full aspect-video md:h-3/6 md:w-full border-none"></video>
+           
+        <!-- video from youtube -->
+        <div class="aspect-w-16 aspect-h-9">
+        <iframe src="https://www.youtube.com/embed/RrOUpBMqrhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
         <div class="rounded-lg mb-8">
             <div class="mx-3 ">

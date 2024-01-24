@@ -4,9 +4,7 @@ import { Nav, CalendarHeader, CalendarDetail, Footer } from '../components'
 
 <template>
     <div>
-        <Nav />
         <CalendarHeader />
         <CalendarDetail />
-        <Footer />
     </div>
 </template>

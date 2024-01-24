@@ -58,9 +58,9 @@
                       <!-- Grid 1 -->
                        <div class="relative md:w-64 md:h-80 cursor-pointer" v-for="object, objectIndex in faqMenu" :key="objectIndex">
 
-                            <div class="relative h-44 w-44  items-center my-8 mx-8 rounded-t-full">
+                            <div class=" h-44 w-44  items-center my-8 mx-8 rounded-t-full">
                        
-                              <img :src="object.imageUrl" alt="Director"  class="absolute left-4 ring-4 ring-green-500 w-full h-full rounded-full">
+                              <img :src="object.imageUrl" alt="Director"  class=" ring-4 ring-green-500 w-full h-full rounded-full object-cover">
                             </div>
 
                            <div class="text-center items-center">

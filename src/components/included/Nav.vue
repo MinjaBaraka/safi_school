@@ -4,57 +4,46 @@
  
 
  const menu = [
-    {
-        title: 'Home',
-        link: ''
-    },
-     {
-        title: 'About us',
-        link: ''
-    },
-     {
-        title: 'Academic',
-        link: ''
-    },
-     {
-        title: 'Gallery',
-        link: ''
-    },
+    { title: 'Home', link: '/'  },
 
-    {
-        title: 'Calendar',
-        link: ''
-    },
-     {
-        title: 'Contact',
-        link: ''
-    },
-     {
-        title: 'News',
-        link: ''
-    },
+    { title: 'About us',  link: '/aboutUs'  },
+
+    { title: 'Academic', link: '/academic' },
+
+    { title: 'Gallery', link: '/gallery' },
+    
+    { title: 'Calendar', link: '/calendary' },
+
+    { title: 'News', link: '/blogsNews' },
+    
+    { title: 'Contact', link: '/contact' },
+    
     //   {
     //     title: 'Search',
     //     link: ''
     // },
  ]
 
-  const  openLink  = (link) => {
-    window.open(link)
-  }
+//   const  openLink  = (link) => {
+//     window.open(link)
+//   }
 </script>
 
 <template>
-    <header class="sticky top-0 z-50 text-white"  style="background-color: #242F51 !important;">
+    <header class="sticky top-0 z-50 text-white bg-[#242F51]">
         <nav class=" container mx-auto flex items-center justify-between h-full">
             <!-- School Logo -->
             <img :src="Logo" alt="School Logo" class="md:w-32 w-24 mt-2">
 
             <!-- Menu -->
             <div class="hidden md:flex space-x-8">
-                <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500">
+                <!-- <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500">
                     {{ option.title }}
-                </p>
+                </p> -->
+
+                <router-link v-for="option, optionIndex in menu" :key="optionIndex"  :to="option.link"  class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500">
+                    {{ option.title }}
+                </router-link>
             </div>
 
             <!-- Apply Now Button -->
