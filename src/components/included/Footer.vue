@@ -1,4 +1,4 @@
-<script set>
+<script>
     import Logo from '../../assets/images/logo/logo.png'
 
     const exploreFooter = [
@@ -65,8 +65,7 @@
 
                     <!-- Text -->
                     <p class="text-white flex lg:text-justify">
-                                    After The Long Jorney Of Academic Year 2023, Baby Class To Grade Two Decided To Go At Wet N Wild Picnic For Refreshment. 
-                                    Click View More For More Information And Pictures
+                                    Safi School is an English Medium Pre and Primary School Located at Mbezi Msakuzi, Ubungo Municipal, Dar-es-Salaam
                     </p>
                     <!-- Social Media -->
                     <div class="flex self-start mt-[1.5rem]">
@@ -98,7 +97,7 @@
                             <h3 class="mb-[1.5rem] text-2xl">Get In Touch</h3>
 
                               <!-- 1. Location Icon with Text -->
-                            <div class="container flex flex-row  gap-6 ml-2 lg:ml-0">
+                            <div class="container flex flex-row  gap-6">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 stroke-amber-500">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
@@ -130,7 +129,7 @@
                         <h3 class="mb-[1.5rem] text-2xl">Quick Links</h3>
 
                         <div class="flex flex-col ml-6">
-                            <p v-for="explore, exploreIndex in exploreFooter" :key="exploreIndex" class="cursor-pointer hover:underline decoration-amber-500 hover:text-amber-500">
+                            <p v-for="explore, exploreIndex in exploreFooter" :key="exploreIndex" class="cursor-pointer hover:underline decoration-amber-500 hover:text-amber-500 ease-in duration-200">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="relative top-6 right-8 stroke-amber-500 w-6 h-6">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
                                 </svg>
@@ -150,6 +149,12 @@
                             <input type="text" name="email" id="email" placeholder="Email" class="mb-4 block py-2 px-2 w-full text-black rounded-lg  border-amber-300 bg-gray-50 focus:ring-2 focus:ring-amber-500 focus:border-amber-500">  
 
                             <input type="number" name="number" id="number" placeholder="Phone Number" class="mb-4 block py-2 px-2 w-full text-black rounded-lg  border-amber-300 bg-gray-50 focus:ring-2 focus:ring-amber-500 focus:border-amber-500">  
+
+                                <div class="block flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+                                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-500 hover:bg-amber-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 ease-in duration-200">
+                                        submit
+                                     </a>
+                                </div>
 
                         </form>
                     

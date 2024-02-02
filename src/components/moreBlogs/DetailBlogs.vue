@@ -94,7 +94,7 @@ const blogsNews = [
 
                     <div class="h-48 w-80  items-center my-4 mx-8">
                         <img :src="object.pictureEvent" alt="BlogsNews1"  class="rounded-md w-full h-full object-cover">
-                    <div class="relative -top-10 left-56 bg-blue-500 h-20 w-20 justify-center rounded-full">
+                      <div class="relative -top-10 left-56 bg-blue-500 h-20 w-20 justify-center rounded-full">
                         <p class="absolute top-3 font-bold text-white  text-center">{{ object.titleDate }}</p>
                     </div>
                   </div>

@@ -19,8 +19,8 @@
                       <img :src="Director" alt="Director" class="h-3/4 w-2/3 mx-auto rounded-lg ring-4 ring-green-500">
                 
                     <div class="text-center items-center mt-4">
-                        <h1 class="lg:text-4xl md:text-3xl text-2xl font-semibold uppercase">Troy Hall</h1>
-                       <h3 class="lg:text-xl md:text-xl text-xs mt-1 text-gray-400 mb-4">Head Of School</h3>
+                        <h1 class="lg:text-4xl md:text-3xl text-2xl font-semibold uppercase">Dr. Amani Sokko</h1>
+                       <h3 class="lg:text-xl md:text-xl text-xs mt-1 text-gray-400 mb-4">School Director</h3>
                     </div>
                   </div> 
               </div>

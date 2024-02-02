@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section class=" bg-center bg-no-repeat bg-cover md:w-auto lg:w-full lg:min-h-[900px]" :style="{ backgroundImage: `url(${MainImage})` }">
+    <section class=" bg-center bg-no-repeat bg-cover md:w-auto lg:w-full lg:min-h-[900px] mb-5" :style="{ backgroundImage: `url(${MainImage})` }">
        
             <!-- <div class="absolute inset-0 bg-gray-800 bg-opacity-45"></div>     -->
         

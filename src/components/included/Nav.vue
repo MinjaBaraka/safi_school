@@ -10,9 +10,9 @@
 
     { title: 'Academic', link: '/academic' },
 
-    { title: 'Gallery', link: '/gallery' },
-    
     { title: 'Calendar', link: '/calendary' },
+
+    { title: 'Gallery', link: '/gallery' },    
 
     { title: 'News', link: '/blogsNews' },
     
@@ -41,17 +41,17 @@
                     {{ option.title }}
                 </p> -->
 
-                <router-link v-for="option, optionIndex in menu" :key="optionIndex"  :to="option.link"  class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500">
+                <router-link v-for="option, optionIndex in menu" :key="optionIndex"  :to="option.link"  class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500 ease-in duration-200">
                     {{ option.title }}
                 </router-link>
             </div>
 
             <!-- Apply Now Button -->
            <div class=" hidden xl:block flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                        <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-500 hover:bg-amber-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                            Apply Now
-                        </a>
-                    </div>
+                    <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-amber-500 hover:bg-amber-600 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 ease-in duration-200">
+                        Enroll Now
+                    </a>
+            </div>
 
             <!-- HeroIcon Menu -->
             <div class="block xl:hidden focus:outline-none  right-8">
