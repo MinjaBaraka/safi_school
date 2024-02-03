@@ -102,13 +102,15 @@
                         :autoplay="{
                                 delay: 7000,
                                 disableOnInteraction: false,
+                                pauseOnMouseEnter: false
                             }"
                         :thumbs="{ swiper: thumbsSwiper }"
+                        :mousewheel="true"
                         :pagination="{ clickable: true }"
                         @swiper="onSwiper"
                         @slideChange="onSlideChange"
                     >
-                          <SwiperSlide v-for="object, objectIndex in testimonialList" :key="objectIndex">
+                          <SwiperSlide v-for="object, objectIndex in testimonialList" :key="objectIndex" class="cursor-pointer">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-10 w-10 pr-2 fill-current text-green-600" viewBox="0 0 24 24"><path
                                     d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
                                 </svg>
@@ -122,7 +124,7 @@
                                 <div class="text-left items-center">
                                         <h1 class="lg:text-3xl text-3xl  font-semibold uppercase">{{ object.name }}</h1>
 
-                                        <h3 class="text-2xs mt-1 text-gray-400">{{ object.whoIs }}</h3>
+                                        <h3 class="text-2xs mt-1 text-gray-400 mb-10">{{ object.whoIs }}</h3>
                                     </div>
                             </div>
                                 
