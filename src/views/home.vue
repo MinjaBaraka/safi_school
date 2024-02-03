@@ -3,13 +3,13 @@
         <MainHeader />
         <Presentation />
         <About />
-        <VisionMission />
-        <FAQ />
+        <DirectorMessage />
+        <ManagementTeam />
         <Feedback />
         <BlogsNews />
     </div>
 </template>
 
 <script setup>
-    import {MainHeader, Presentation, VisionMission, About, FAQ, Feedback, BlogsNews } from '../components'
+    import {MainHeader, Presentation, DirectorMessage, About, ManagementTeam, Feedback, BlogsNews } from '../components'
 </script>

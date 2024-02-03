@@ -1,24 +1,24 @@
 <script setup>
     import Manager from '../../assets/images/management/manager.png'
-    import AcademicTeacher from '../../assets/images/management/academic_teacher.jpg'
+    import AcademicTeacher from '../../assets/images/management/academic_teacher.png'
     import HeadTeacher from '../../assets/images/management/head_teacher.jpg'
 
     const faqMenu = [
       {
-        title: 'Troy Hall',
+        title: 'Mr. Paul Eugene Assey',
         subTitle: 'School Manager',
         imageUrl: Manager
       },
 
       {
-        title: 'Troy Hall',
+        title: 'Mr. Joseph Myegeta',
         subTitle: 'Head Teacher',
         imageUrl: AcademicTeacher
       },
 
 
       {
-        title: 'Troy Hall',
+        title: 'Zakhia George',
         subTitle: 'Academic Teacher',
         imageUrl: HeadTeacher
       },
@@ -34,7 +34,7 @@
                 <div class="flex justify-center items-center">
                 <div class="relative md:mx-auto max-w-screen-md text-center p-6 ">
                     <small class="text-gray-500 text-xs uppercase mx-auto">Instructor</small>
-                    <p class="font-semibold text-xl md:text-2xl lg:text-3xl text-justify mb-4">Management Team</p>
+                    <p class="font-semibold text-xl md:text-2xl lg:text-3xl text-justify">Management Team</p>
                 </div>
                 </div>
 
@@ -44,12 +44,12 @@
                       <!-- Grid 1 -->
                   <div class="relative md:w-64 md:h-80 cursor-pointer" v-for="object, objectIndex in faqMenu" :key="objectIndex">
 
-                      <div class=" h-44 w-44  items-center my-8 mx-8 rounded-t-full">                       
+                      <div class=" h-48 w-48  items-center my-8 mx-8 rounded-t-full">                       
                           <img :src="object.imageUrl" alt="Director"  class=" ring-4 ring-green-500 w-full h-full rounded-full object-cover">
                       </div>
 
                       <div class="text-center items-center">
-                          <h1 class="text-xl font-semibold uppercase">{{object.title}}</h1>
+                          <h1 class="text-xl font-semibold capitalize">{{object.title}}</h1>
 
                           <h3 class=" text-xs mt-1 text-gray-400">{{object.subTitle}}</h3>
                       </div>

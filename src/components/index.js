@@ -1,7 +1,7 @@
 // Home
 import MainHeader from './home/MainHeader.vue'
-import FAQ from "./home/FAQ.vue";
-import VisionMission from "./home/VissionMission.vue";
+import ManagementTeam from "./home/ManagementTeam.vue";
+import DirectorMessage from "./home/DirectorMessage.vue";
 import Feedback from "./home/Feedback.vue";
 import Presentation from "./home/Presentation.vue";
 import About from "./home/About.vue";
@@ -23,9 +23,9 @@ import CalendarDetail from "./calendar/CalendarDetail.vue";
 export {
   //   Home
   MainHeader,
-  VisionMission,
+  DirectorMessage,
   Presentation,
-  FAQ,
+  ManagementTeam,
   About,
   BlogsNews,
   Feedback,

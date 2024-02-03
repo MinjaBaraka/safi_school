@@ -14,7 +14,7 @@
            
         <!-- video from youtube -->
         <div class="aspect-w-16 aspect-h-9">
-        <iframe src="https://www.youtube.com/embed/RrOUpBMqrhM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/RrOUpBMqrhM" class=" px-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="rounded-lg mb-8">

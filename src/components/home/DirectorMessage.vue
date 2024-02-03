@@ -5,11 +5,13 @@
     // import Goal from '../assets/images/coreValue/goal.png'
 
     // Instructor picture
-    import Director from '../../assets/images/director.jpg'
+    import Director from '../../assets/images/director/director.jpg'
+    import DirectorMessage from '../../assets/images/director/director message.jpg'
 </script>
 
 <template>
-    <section class="bg-[#E0F4FF]">
+  <!-- bg-[#E0F4FF] -->
+    <section class="mb-10 bg-[#E0F4FF] md:bg-white">
 
         <div class="max-w-[1200px] mx-auto">
             <div class="flex flex-col mx-auto items-center md:grid md:grid-cols-2 grid-cols-1">
@@ -24,12 +26,15 @@
                     </div>
                   </div> 
               </div>
-               <!-- Vsion and Mission -->
-                       <div class="relative md:-top-12 lg:-top-36 md:w-auto md:h-full lg:w-full lg:h-4/6">
+                       <div class="relative md:-top-12 lg:-top-32 md:w-auto md:h-full lg:w-full lg:h-4/6">
+                           <div class="flex ">
+                    <!-- Director Messager -->
+                          <div class=" md:w-6/6 md:h-5/6 ">
+                              <img :src="DirectorMessage" alt="DirectorMessage" class="h-full w-full mx-auto rounded-lg ">                      
+                          </div> 
+                      </div>
 
-
-                          <!-- Mission -->
-                            <div class="relative h-24 w-24 md:h-14 md:w-16  items-center lg:my-8 md:my-6 mx-8">
+                            <!-- <div class="relative h-24 w-24 md:h-14 md:w-16  items-center lg:my-8 md:my-6 mx-8">
                        
                               <img :src="Mission" alt="Mission"  class="absolute left-4 top-4 w-16 h-16">
                             </div>
@@ -42,9 +47,7 @@
                               Individual And As Citizen Of This Country And The World At Large.                        
                         
                             </p>
-
-
-                            <!-- Vision -->
+                            
                           <div class="relative h-24 w-24 md:h-14 md:w-16 items-center my-4 md:my-4 mx-8">
                               <img :src="Vision" alt="Vision"  class="absolute left-4 top-4 w-16 h-16">                    
                         </div>
@@ -55,9 +58,9 @@
                           <p class="text-justify text-xs lg:text-xl mx-8 mt-2 mb-4">
                              To Be Among The Leading Private Schools In Tanzania That Upholds The Highest Standards Of Education And Ethics.
                           </p>
-                       </div>                  
+                       </div>  -->
 
-                  </div>
+                   </div>
                 </div>
         </div>
       
