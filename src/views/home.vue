@@ -1,8 +1,8 @@
 <template>
     <div>
         <MainHeader />
-        <Presentation />
         <About />
+        <Presentation />
         <DirectorMessage />
         <ManagementTeam />
         <Feedback />

@@ -30,27 +30,27 @@
             const testimonialList = ref([
 
                 {
-                    name: 'Troy Hall',
-                    whoIs: 'A customer',
-                    subtitle: 'At Safi Schools we believe that total success of our pupils depends on close and effective cooperation between the school, parent, the wider community and the various government eduction organs esponsible for regulating and advancement of education...',
-                },
-
-                {
-                    name: 'James Hall',
-                    whoIs: 'user',
-                    subtitle: 'At Safi Schools we believe that total success of our pupils depends on close and effective cooperation between the school, parent, the wider community and the various government eduction organs esponsible for regulating and advancement of education...',
-                },
-
-                {
-                    name: 'Troy Hall',
+                    name: 'shilolesamike',
                     whoIs: 'Parent',
-                    subtitle: 'At Safi Schools we believe that total success of our pupils depends on close and effective cooperation between the school, parent, the wider community and the various government eduction organs esponsible for regulating and advancement of education...',
+                    subtitle: 'One among the giant in municipality...',
                 },
 
                 {
-                    name: 'Legendary Hall',
+                    name: 'Iyimo2095',
                     whoIs: 'Parent',
-                    subtitle: 'At Safi Schools we believe that total success of our pupils depends on close and effective cooperation between the school, parent, the wider community and the various government eduction organs esponsible for regulating and advancement of education...',
+                    subtitle: '👏👏Tunaimani na nyie Mungu aendelee kuwasimama muwe imara kuwaelimisha watoto wetu❤️🔥...',
+                },
+
+                {
+                    name: 'Jerome_ismail_sylivery',
+                    whoIs: 'Parent',
+                    subtitle: 'Hongereni Safi schools, naomba mawasiliano yenu newalete wanangu wawili...',
+                },
+
+                {
+                    name: 'dogo1694',
+                    whoIs: 'Parent',
+                    subtitle: 'Safi school ni mahali pekee naweza sema elimu bora na kw gharama...',
                 },
             ])
 
@@ -83,19 +83,7 @@
                     <h4 class="uppercase text-gray-500 font-serif mt-2">Testimonial</h4>
                     <h1 class="text-4xl mt-2 font-semibold">Our Parents <span class="text-green-500 font-bold">Feedback.</span></h1>
 
-                     <!-- <div class=" mt-10" >
-                        <svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-10 w-10 pr-2 fill-current text-green-600" viewBox="0 0 24 24"><path
-                            d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
-                        </svg>
-
-                        <p class="text-justify text-gray-400 lg:text-left">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At Safi Schools we believe that total success of our pupils depends on close and effective
-                            cooperation between the school, parent, the wider community and the various government eduction organs
-                            responsible for regulating and advancement of education...
-                        </p>
-
-                    </div> -->
-
+                    <!-- swiper -->
                     <swiper  class="mt-10"
                         :modules="modules"
                         :slides-per-view="1"
@@ -122,7 +110,7 @@
 
                              <div class="mt-20">
                                 <div class="text-left items-center">
-                                        <h1 class="lg:text-3xl text-3xl  font-semibold uppercase">{{ object.name }}</h1>
+                                        <h1 class="lg:text-3xl text-3xl  font-semibold capitalize">{{ object.name }}</h1>
 
                                         <h3 class="text-2xs mt-1 text-gray-400 mb-10">{{ object.whoIs }}</h3>
                                     </div>
