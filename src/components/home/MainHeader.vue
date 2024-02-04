@@ -8,7 +8,7 @@
             <!-- <div class="absolute inset-0 bg-gray-800 bg-opacity-45"></div>     -->
         
             <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-                <h1 class="mb-4 text-4xl lg:text-8xl font-bold uppercase text-white text-center bg-clip-text text-transparent bg-gradient-to-br from-amber-400 to-orange-300">Safi School</h1>
+                <h1 class="mb-4 text-4xl lg:text-8xl font-bold uppercase text-white text-center">Safi Schools</h1>
                 <p class="mb- text-lg font-normal text-white text-center lg:text-xl sm:px-16 lg:px-48">
                         Where Success Starts and Nurtured
                 </p>

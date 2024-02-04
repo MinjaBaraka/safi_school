@@ -1,5 +1,4 @@
 <template>
-    <div>
         <MainHeader />
         <About />
         <Presentation />
@@ -7,7 +6,6 @@
         <ManagementTeam />
         <Feedback />
         <BlogsNews />
-    </div>
 </template>
 
 <script setup>

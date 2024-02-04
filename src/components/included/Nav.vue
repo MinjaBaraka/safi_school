@@ -37,10 +37,6 @@
 
             <!-- Menu -->
             <div class="hidden xl:flex space-x-8">
-                <!-- <p v-for="option, optionIndex in menu" :key="optionIndex" @click="openLink(option.link)" class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500">
-                    {{ option.title }}
-                </p> -->
-
                 <router-link v-for="option, optionIndex in menu" :key="optionIndex"  :to="option.link"  class="cursor-pointer hover:text-amber-500 hover:underline hover:decoration-amber-500 ease-in duration-200">
                     {{ option.title }}
                 </router-link>

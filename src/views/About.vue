@@ -1,9 +1,8 @@
-<template>
-    <div>
-        <About />
-    </div>
-</template>
-
 <script setup>
-import { About } from '../components'
+import {  AboutDetails, AboutHeader } from '../components'
 </script>
+
+<template>
+        <AboutHeader />
+        <AboutDetails />
+</template>

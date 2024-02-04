@@ -3,8 +3,6 @@
 </script>
 
 <template>
-    <div>
         <BlogHeader />
         <DetailBlogs />
-    </div>
 </template>

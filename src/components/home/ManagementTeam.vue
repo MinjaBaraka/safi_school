@@ -13,14 +13,14 @@
       {
         title: 'Mr. Joseph Myegeta',
         subTitle: 'Head Teacher',
-        imageUrl: AcademicTeacher
+        imageUrl: HeadTeacher
       },
 
 
       {
         title: 'Zakhia George',
         subTitle: 'Academic Teacher',
-        imageUrl: HeadTeacher
+        imageUrl: AcademicTeacher
       },
 
     ]

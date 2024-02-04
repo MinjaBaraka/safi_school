@@ -20,6 +20,10 @@ import DetailBlogs from "./moreBlogs/DetailBlogs.vue";
 import CalendarHeader from './calendar/CalendarHeader.vue'
 import CalendarDetail from "./calendar/CalendarDetail.vue";
 
+// Abou Us
+import AboutDetails from "./About/AboutDetails.vue";
+import AboutHeader from "./About/AboutHeader.vue";
+
 export {
   //   Home
   MainHeader,
@@ -41,4 +45,8 @@ export {
   //   calendar
   CalendarHeader,
   CalendarDetail,
+
+  // About Us
+  AboutDetails,
+  AboutHeader,
 };
