@@ -65,7 +65,7 @@
               <div class=" shadow-md md:w-96 md:h-96 rounded-md cursor-pointer bg-gray-100 mb-4" v-for="object, objectIndex in blogsNews" :key="objectIndex">
 
                 <!-- Picture BlogsNews -->
-                <div class="h-48 w-80  items-center my-4 mx-8">
+                <div class="h-48 w-80 flex items-center my-4 mx-8">
                     <img :src="object.pictureEvent" alt="BlogsNews1"  class="rounded-md w-full h-full">
                 <div class="relative -top-10 left-56 bg-blue-500 h-20 w-20 justify-center rounded-full">
                     <p class="absolute top-3 font-bold text-white  text-center">{{object.titleDate}}</p>
